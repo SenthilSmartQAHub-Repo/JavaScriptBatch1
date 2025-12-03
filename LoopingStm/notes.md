@@ -35,3 +35,12 @@ do{
     // block of statement
 }
 while(condition);
+
+
+for of loop  -- String
+===========
+
+for(let c of stringvariable)
+{
+    
+}
