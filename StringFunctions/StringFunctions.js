@@ -62,5 +62,5 @@ console.log(str2.match(/a/g))
    let accountNumber="1"
 
    //console.log(accountNumber.padStart(10,"0"))
-   console.log(accountNumber.padEnd(10,"0"))
+   console.log(accountNumber.padEnd(3,".00"))
 
