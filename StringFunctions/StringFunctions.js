@@ -52,3 +52,8 @@ console.log(str2.match(/a/g))
    }
 
    console.log("welcomeasd".repeat(50))
+
+
+   let str123="javascripta"
+
+   console.log(str123.indexOf('a',4))
