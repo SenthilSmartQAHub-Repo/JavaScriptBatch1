@@ -54,6 +54,13 @@ console.log(str2.match(/a/g))
    console.log("welcomeasd".repeat(50))
 
 
-   let str123="javascripta"
+   let str123="jav$asc$r@ipta"
 
    console.log(str123.indexOf('a',4))
+
+
+   let accountNumber="1"
+
+   //console.log(accountNumber.padStart(10,"0"))
+   console.log(accountNumber.padEnd(10,"0"))
+
