@@ -9,7 +9,6 @@ console.log(number)
 // let a=20;
 // delete a;
 
-
 function sum(a,a)
 {
     console.log("sum method")
