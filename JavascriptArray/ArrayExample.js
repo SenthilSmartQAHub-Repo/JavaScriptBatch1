@@ -73,3 +73,66 @@ mixedData.forEach((value)=>{
 })
 
 // const cars=['BMW','volvo',mini]  - iterator using for each and for in
+
+
+// Common Array methods
+//======================
+
+// Adding and Removing the values
+
+const cars=['BMW','volvo',"mini"]
+
+cars.push('Audi') //new elements to the end of an array
+
+console.log(cars)
+
+cars.pop()// Removes the last element from an array
+
+console.log(cars)
+
+cars.unshift('toyota')//insert at the start of the array
+
+console.log(cars)
+
+cars.shift() //Removes the first element from an array
+
+console.log(cars)
+
+// Sorting and reversing................
+
+const cars1=['toyota','BMW','volvo','mini']
+//console.log(cars1.sort())
+console.log(cars1.reverse())
+
+// Array into a string
+const cars2=['toyota','BMW','volvo','mini']
+console.log(cars2.toString())
+console.log(cars2.join(' '))
+
+
+//Combining and Slicing Array Values
+
+const cars10=['toyota','BMW']
+const cars11=['volvo','mini']
+
+console.log(cars10.concat(cars11))
+
+const carlist=['toyota','BMW','volvo','mini']
+
+// ['toyota','BMW','volvo','mini']
+//    0        1     2       4
+//    -4      -3    -2       -1
+console.log(carlist.slice(1,3))
+console.log(carlist.slice(-3,-1))
+
+// splice  -> Changes the array values by removing or replace existing value or add new value
+
+// startingindex, Deletecount, insertingNewvalues
+carlist.splice(1,2,"tesla")
+console.log(carlist)
+
+const carlist1=['toyota','BMW','volvo','mini']
+
+delete carlist1[1]
+
+console.log(carlist1)
