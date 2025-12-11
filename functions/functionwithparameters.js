@@ -15,6 +15,7 @@ function mul(value1,pi=3.14)
 }
 mul(10,23)
 
+
 // Rest operator(...)
 function add(...a) //Rest parameter
 {
