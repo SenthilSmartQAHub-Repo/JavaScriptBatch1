@@ -136,3 +136,5 @@ const carlist1=['toyota','BMW','volvo','mini']
 delete carlist1[1]
 
 console.log(carlist1)
+
+carlist1.ma

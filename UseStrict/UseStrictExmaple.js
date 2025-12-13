@@ -1,11 +1,9 @@
 
-
 let number=10;
 console.log(number)
 
 // let obj={name1:"playwright", name1:"playwright"};
 // console.log(obj.name1)
-
 // let a=20;
 // delete a;
 
@@ -22,5 +20,4 @@ function add()
     y=20
     console.log(x+y)
 }
-
 add()
