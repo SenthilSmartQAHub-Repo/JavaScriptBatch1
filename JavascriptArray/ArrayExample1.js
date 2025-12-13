@@ -59,3 +59,58 @@ const total=number2.reduce((acc,value)=>acc+value,0)  //10+15=> 25
 
 console.log(total)
 
+
+// some() function
+
+  // It is used to check if at least one value in the array satisfies the condition
+
+  // true --> if any one values passes
+  // false --> if none pass
+
+  // Exmaple
+    // check if any student failed
+    // check if any item exceed price limit
+    // check if any user is admin
+
+  const nums=[10,20,30]
+
+        const output=nums.some(n=>n>50)
+
+        console.log(output)
+
+ //every() function
+
+   // Example
+       //1. check all students passed
+       //2. ensure all products are in stock
+       
+
+// it is used to check whether all the values in the array satify the given condition
+
+// true --> if every values passes the condition
+// false --> if any one value fails the condition
+
+const nums1=[5,-12,8,130]
+
+   const result1=nums1.every(i=> i>0)
+
+   console.log(result1)
+
+   // find() function
+
+// used to find the first value in the array that satifies the given condition
+
+// if no mathing value is found --> undefined
+
+  const arr=[1,3,5,8,10,12,4]
+
+    const even=arr.find(i=>i%2==0)
+
+    console.log(even)
+
+
+const emp=[10000,20000,5000]
+
+   const empsalary= emp.find(i=>i > 25000)
+
+   console.log(empsalary)
