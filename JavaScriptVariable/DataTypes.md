@@ -1,7 +1,7 @@
 // JavaScript DataType
 
    1. Javascript Dynamic Typing
-   2. Primitive and object Type
+   2. Primitive and Non-Primitive Type
 
 Primitive Data types
 ====================
@@ -15,6 +15,6 @@ undefined  --> 4 bytes
 
 bigInt  -   > 2^25-1
 
-object Type
-=========
+Non-Primitive Type
+==================
 Object, Array, functions
