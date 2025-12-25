@@ -19,3 +19,8 @@ console.log(primitiveStr3 == primitiveStr4);
 let objectStr1 = new String("123");
 let objectStr2 = new String("Hello");
 console.log(typeof objectStr1.valueOf());
+
+
+
+let x = null
+console.log(!"");
